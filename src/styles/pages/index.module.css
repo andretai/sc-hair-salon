@@ -1,0 +1,74 @@
+.index_section {
+  margin-bottom: 60px;
+}
+
+.nested_section {
+  margin-bottom: 60px;
+}
+
+/* General Info => Introduction */
+.welcome_part {
+  margin-bottom: 30px;
+  @apply text-center;
+}
+
+.welcome_text {
+  @apply text-lg;
+}
+
+/* General Info => Opening Hours */
+.opening_div {
+  padding-top: 30px;
+  @apply border border-gray-300 rounded-lg text-center;
+}
+
+.opening_part {
+  margin-bottom: 30px;
+}
+
+/* Featured Services */
+.index_section_title {
+  margin-bottom: 60px;
+  @apply col-span-3 text-center;
+}
+
+.index_section_title_underline {
+  @apply w-16 mx-auto;
+}
+
+.index_services {
+  padding: 30px 15px 0 15px;
+  @apply border border-green-300 rounded-lg capitalize text-center;
+}
+
+.index_services_part {
+  margin-bottom: 30px;
+}
+
+.index_services_img {
+  @apply w-1/4 mx-auto;
+}
+
+@screen lg {
+  /* General Info */
+  .index_general_info {
+    max-width: 1024px;
+    @apply grid grid-cols-3 col-gap-6 mx-auto h-full;
+  }
+  /* General Info => Introduction */
+  .welcome_part {
+    @apply text-left;
+  }
+  /* General Info => Lady Image */
+  .lady_img {
+    @apply object-cover;
+  }
+  /* General Info => Opening Hours */
+  .opening_div {
+    padding-top: 30px;
+    margin-bottom: 60px;
+    @apply border border-gray-300 rounded-lg text-center;
+  }
+  /* Featured Services */
+
+}

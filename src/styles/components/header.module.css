@@ -1,0 +1,60 @@
+header {
+  @apply p-6;
+}
+.header {
+  @apply flex justify-between items-center;
+}
+.header_navigation, .header_social {
+  @apply hidden;
+}
+.hero {
+  margin-bottom: 60px;
+  @apply relative text-center text-white;
+}
+.hero_img {
+  @apply h-128 object-cover;
+}
+.hero_texts {
+  @apply absolute top-0 left-0 right-0 mt-48;
+}
+.hero_small {
+  @apply uppercase;
+}
+.hero_big {
+  @apply capitalize text-4xl;
+}
+.hero_book_button {
+  background-color: #1b1b1b;
+  margin-top: 15px;
+  @apply px-6 py-2 capitalize;
+}
+@screen lg {
+  header {
+    max-width: 1024px;
+    @apply mx-auto;
+  }
+  .header_navigation {
+    @apply flex;
+  }
+  .header_navigation_link {
+    @apply mx-6 uppercase;
+  }
+  .header_social {
+    @apply flex;
+  }
+  .header_social_icon {
+    @apply w-5 ml-3;
+  }
+  .header_menu {
+    @apply hidden;
+  }
+  .hero_img {
+    @apply w-full;
+  }
+  .hero_small {
+    @apply text-2xl uppercase;
+  }
+  .hero_big {
+    @apply capitalize text-6xl;
+  }
+}
