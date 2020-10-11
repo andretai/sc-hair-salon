@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: `HairSalon`,
-    description: `A sample website for hair salons by Andre Tai.`,
+    description: `Welcome to Hair Salon's website.`,
     author: `Andre Tai`,
   },
   plugins: [

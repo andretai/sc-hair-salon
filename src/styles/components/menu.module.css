@@ -1,5 +1,5 @@
 .menu {
-  @apply fixed top-0 right-0 h-full w-4/5 p-6 bg-white;
+  @apply fixed top-0 right-0 z-50 h-full w-4/5 p-6 bg-white;
 }
 .menu_close {
   margin-bottom: 60px;

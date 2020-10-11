@@ -33,7 +33,7 @@
 }
 
 .testimonial_rating_star {
-  @apply w-12 mx-1;
+  @apply w-12 h-12 mx-1;
 }
 
 @screen lg {
@@ -56,6 +56,6 @@
     @apply flex justify-start;
   }
   .testimonial_rating_star {
-    @apply w-10 mx-1;
+    @apply w-10 h-10 mx-1;
   }
 }
